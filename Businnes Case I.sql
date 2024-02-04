@@ -5,8 +5,8 @@ select
 	,o.shipping_mode 
 	,(select count(o.order_id) from orders o) 			as total_nr_of_orders 
 	,ds.nr_of_orders_ds
-	,count(o.order_id) 									as nr_of_orders_ds_sm 	-- orders per delivery_state and shipping_mode
-	,round(count(o.order_id) / nr_of_orders_ds * 100,2) as percent_ratio_orders
+	,count(o.order_id) 						as nr_of_orders_ds_sm 	-- orders per delivery_state and shipping_mode
+	,round(count(o.order_id) / nr_of_orders_ds * 100,2) 		as percent_ratio_orders
 from orders o 
 inner join  
 	(
