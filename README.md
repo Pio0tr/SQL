@@ -8,7 +8,7 @@ Celem było znalezienie trzech najcenniejszych klientów dla naszej firmy, czyli
 
 
 Pliki, które stanowiły bazę danych dla powyższych projektów:
-*customers.csv
-*order_positions.csv
-*orders.csv
-*products.csv
+customers.csv
+order_positions.csv
+orders.csv
+products.csv
